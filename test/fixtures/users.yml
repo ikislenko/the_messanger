@@ -4,14 +4,12 @@ one:
   provider: MyString
   uid: MyString
   email: MyString
-  first_name: MyString
-  last_name: MyString
+  name: MyString
   picture: MyString
 
 two:
   provider: MyString
   uid: MyString
   email: MyString
-  first_name: MyString
-  last_name: MyString
+  name: MyString
   picture: MyString

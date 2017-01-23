@@ -1,0 +1,22 @@
+<header>
+  <div class="header-content">
+    <div class="header-content-inner">
+        <h1 id="homeHeading">Welcom to Messanger! </h1>
+        <hr>
+        <a class="btn btn-primary" href="/auth/facebook">
+          <span class="fa fa-lg fa-facebook"> Login with FaceBook</span>
+        </a>
+        <a class="btn btn-danger" href="/auth/google_oauth2">
+          <span class="fa fa-lg fa-google-plus"> Login with Google+</span>
+        </a>
+        <a class="btn btn-info" href="#">
+          <span class="fa fa-lg fa-vk"> Login with VK</span>
+        </a>
+    </div>
+    <div> OR
+      <p> go to
+      <%= link_to  "messages", posts_path %>
+       as guest </p>
+    </div>
+  </div>
+</header>

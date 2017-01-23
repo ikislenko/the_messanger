@@ -1,0 +1,19 @@
+<% unless current_page?(root_path) %>
+  <%= link_to 'Home', root_path, class: 'btn btn-outline-primary btn-block my-1' %>
+<% end %>
+
+<% if current_user %>
+  <%= link_to 'New Post', new_post_path, class: 'btn btn-outline-primary btn-block my-1' %>
+  <%= link_to 'Logout', logout_path, class: 'btn btn-outline-primary btn-block my-1' %>
+<% else %>
+  <%= link_to "Login page", root_path, class: 'btn btn-outline-primary btn-block my-1' unless current_page?(root_path) %>
+<% end %>
+<div id="posts">
+  <% if @posts.size.zero? %>
+    <div class="no_posts">
+      No posts have been published.
+    </div>
+  <% else %>
+    <%= render @posts %>
+  <% end %>
+</div>

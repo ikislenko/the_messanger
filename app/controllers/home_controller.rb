@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
   def show
-  end  
+    redirect_to posts_path if current_user
+  end
 end

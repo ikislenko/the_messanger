@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'omniauth-facebook'
+gem 'omniauth'
 gem "omniauth-google-oauth2"
 gem 'omniauth-facebook'
 

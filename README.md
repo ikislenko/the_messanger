@@ -18,4 +18,6 @@ How to install:
 * run  _bundle install_
 * run _rake db:create_ and _rake db:migrate_
 
-* to start app run _rails s_ 
+* to start app run _rails s_
+
+You can try [demo](https://themessanger.herokuapp.com) on heroku 
